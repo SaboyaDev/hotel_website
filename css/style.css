@@ -5,11 +5,20 @@
 	box-sizing: border-box;
 }
 
+/* CSS Variables */
+:root {
+	--main-color: #F7C08A;
+	--secondary-color: #333;
+	--secondary-color-hover: #444;
+	--white: #fff;
+}
+
 /* Main Styling */
 html,
 body {
 	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 	line-height: 1.7em;
+	color: var(--white);
 }
 
 li {
@@ -17,7 +26,7 @@ li {
 }
 
 a {
-	color: #333;
+	color: var(--white);
 	text-decoration: none;
 }
 
@@ -39,14 +48,14 @@ p {
 	padding: 0 20px;
 }
 
-/* Navbar */
-#navbar {
-	background-color: #333;
-	overflow: auto;
+.text-primary {
+	color: var(--main-color);
 }
 
-#navbar a {
-	color: #fff;
+/* Navbar */
+#navbar {
+	background-color: var(--secondary-color);
+	overflow: auto;
 }
 
 #navbar h1 {
@@ -67,12 +76,42 @@ p {
 	padding: 20px;
 }
 
-#navbar ul li a:last-child {
+#navbar ul li:last-child a {
 	padding-right: 0;
 }
 
 #navbar ul li a:hover,
 #navbar ul li a.current {
-	background-color: #444;
-	color: #F7C08A;
+	background-color: var(--secondary-color-hover);
+	color: var(--main-color);
+}
+
+/* Showcase */
+#showcase {
+	height: 600px;
+	background-image: url(../img/showcase.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+#showcase .showcase-content {
+	padding-top: 170px;
+	text-align: center;
+}
+
+#showcase .showcase-content h1 {
+	font-size: 60px;
+	line-height: 1.2em;
+}
+
+#showcase .showcase-content .lead {
+	font-size: 20px;
+	padding-bottom: 20px;
+	line-height: 1.7em;
+}
+
+.btn {
+	display: inline-block;
+	background-color: var(--secondary-color);
+	padding: 13px 20px;
 }
