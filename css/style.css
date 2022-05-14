@@ -44,7 +44,7 @@ p {
 /* Utility Classes */
 .container {
 	margin: 0 auto;
-	max-width: 1500px;
+	max-width: 1200px;
 	height: 100%;
 }
 
@@ -54,6 +54,18 @@ p {
 
 .text-primary {
 	color: var(--main-color);
+}
+
+.btn {
+	display: inline-block;
+	font-size: 18px;
+	padding: 13px 20px;
+	cursor: pointer;
+}
+
+.btn:hover {
+	background-color: var(--main-color);
+	color: var(--secondary-color)
 }
 
 .bg-dark {
@@ -121,13 +133,6 @@ p {
 	font-size: 20px;
 	padding-bottom: 20px;
 	line-height: 1.7em;
-}
-
-.btn {
-	display: inline-block;
-	font-size: 18px;
-	padding: 13px 20px;
-	cursor: pointer;
 }
 
 /* Home-Info */
