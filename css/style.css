@@ -41,6 +41,10 @@ p {
 	margin: 10px 0;
 }
 
+br {
+	clear: both;
+}
+
 /* Utility Classes */
 .container {
 	margin: 0 auto;
@@ -66,6 +70,11 @@ p {
 .btn:hover {
 	background-color: var(--main-color);
 	color: var(--secondary-color)
+}
+
+.bg-primary {
+	background-color: var(--main-color);
+	color: var(--secondary-color);
 }
 
 .bg-dark {
@@ -138,7 +147,7 @@ p {
 /* Home-Info */
 #home-info {
 	height: 400px;
-	margin-bottom: 100px;
+	/* margin-bottom: 100px; */
 	overflow: hidden;
 }
 
@@ -161,4 +170,29 @@ p {
 
 #home-info .info-content p {
 	padding-bottom: 30px;
+}
+
+/* Features */
+#features {
+	color: black;
+	overflow: hidden;
+}
+
+.box {
+	float: left;
+	width: 33.3%;
+	padding: 50px;
+	text-align: center;
+}
+
+.box i {
+	margin-bottom: 10px;
+}
+
+/* Footer */
+#main-footer {
+	text-align: center;
+	background-color: #444;
+	color: var(--white);
+	padding: 20px;
 }
