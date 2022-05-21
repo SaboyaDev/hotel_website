@@ -230,6 +230,37 @@ br {
 	margin: auto;
 }
 
+/* Testimonials */
+#testimonials {
+	height: 600px;
+	background: url(../img/test-bg.jpg) center center/cover;
+	padding-top: 100px;
+}
+
+#testimonials h2 {
+	text-align: center;
+	padding-bottom: 40px;
+}
+
+.l-heading {
+	font-size: 40px;
+}
+
+.testimonial {
+	overflow: hidden;
+	padding: 20px;
+	border-radius: 5px;
+	margin-bottom: 40px;
+	opacity: 0.9;
+}
+
+.testimonial img {
+	width: 100px;
+	border-radius: 50%;
+	float: left;
+	margin-right: 20px;
+}
+
 /* Footer */
 #main-footer {
 	text-align: center;
