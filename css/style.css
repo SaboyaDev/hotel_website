@@ -261,6 +261,13 @@ br {
 	margin-right: 20px;
 }
 
+/* Contact Page */
+
+/* Contact Info */
+#contact-info {
+	overflow: hidden;
+}
+
 /* Footer */
 #main-footer {
 	text-align: center;
