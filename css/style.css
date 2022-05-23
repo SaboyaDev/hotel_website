@@ -65,7 +65,10 @@ br {
 	display: inline-block;
 	font-size: 18px;
 	padding: 13px 20px;
+	border: none;
 	cursor: pointer;
+	background-color: var(--secondary-color);
+	color: var(--white);
 }
 
 .btn:hover {
@@ -84,6 +87,11 @@ br {
 
 .bg-light {
 	background-color: var(--light-color);
+	color: var(--secondary-color);
+}
+
+.bg-white {
+	background-color: var(--white);
 	color: var(--secondary-color);
 }
 
@@ -261,7 +269,27 @@ br {
 	margin-right: 20px;
 }
 
-/* Contact Page */
+/* Contact Form */
+#contact-form .form-group {
+	margin-bottom: 20px;
+}
+
+#contact-form label {
+	display: block;
+}
+
+#contact-form input,
+#contact-form textarea {
+	padding: 10px;
+	width: 100%;
+	border: 1px solid #ddd;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+	outline: none;
+	border-color: var(--main-color);
+}
 
 /* Contact Info */
 #contact-info {
