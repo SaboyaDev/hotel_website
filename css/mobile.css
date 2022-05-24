@@ -53,6 +53,9 @@
 }
 
 /* Features */
+#features .container {
+  padding: 0;
+}
 .box {
   float: none;
   width: 100%;
