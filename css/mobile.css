@@ -1,3 +1,12 @@
+/* CSS Variables */
+:root {
+  /* --main-color: #f7c08a; */
+  /* --secondary-color: #333; */
+  --secondary-color-hover: #444;
+  --light-color: #f4f4f4;
+  /* --white: #fff; */
+}
+
 /* Navbar */
 #navbar .container {
   padding: 0;
@@ -8,7 +17,9 @@
 #navbar ul,
 #navbar ul li,
 #home-info .info-content,
-.box {
+.box,
+#about-info .info-right,
+#about-info .info-left {
   float: none;
 }
 
@@ -45,4 +56,40 @@
 .box {
   float: none;
   width: 100%;
+}
+
+/* About */
+#about-info {
+  padding: 60px 0;
+}
+
+#about-info .info-right,
+#about-info .info-left {
+  width: 100%;
+  padding-bottom: 40px;
+}
+
+#about-info .info-right {
+  padding-bottom: 0;
+}
+
+#about-info .info-right img {
+  border-radius: 0;
+}
+
+#about-info .info-left {
+  text-align: center;
+}
+
+/* Contact */
+#contact-form form .btn-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+#contact-info .container {
+  padding: 0;
+}
+#contact-info .box:not(:last-child) {
+  border-bottom: rgba(74, 74, 74, 0.458) 1px solid;
 }

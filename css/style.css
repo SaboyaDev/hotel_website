@@ -48,14 +48,10 @@ br {
 /* Utility Classes */
 .container {
   margin: auto;
-  max-width: 1100px;
+  max-width: 1400px;
   overflow: auto;
   padding: 0 20px;
 }
-
-/* .padding-lr {
-	padding: 0 20px;
-} */
 
 .text-primary {
   color: var(--main-color);
@@ -93,6 +89,11 @@ br {
 .bg-white {
   background-color: var(--white);
   color: var(--secondary-color);
+}
+
+.l-heading {
+  font-size: 40px;
+  line-height: 1.2;
 }
 
 /* padding */
@@ -215,10 +216,6 @@ br {
   overflow: hidden;
 }
 
-#about-info .info-left .l-heading {
-  font-size: 40px;
-}
-
 #about-info .info-left {
   float: left;
   width: 50%;
@@ -240,7 +237,8 @@ br {
 
 /* Testimonials */
 #testimonials {
-  height: 600px;
+  /* height: 600px; */
+  height: 100%;
   background: url(../img/test-bg.jpg) center center/cover;
   padding-top: 100px;
 }
