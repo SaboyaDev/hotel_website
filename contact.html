@@ -1,88 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- SEO -->
+    <meta
+      name="description"
+      content="Welcome to the most extraordinary hotel in Boston Massachusetts"
+    />
+    <meta name="keywords" content="hotel, bostom hotel, new england hotel" />
 
-	<!-- SEO -->
-	<meta name="description" content="Welcome to the most extraordinary hotel in Boston Massachusetts">
-	<meta name="keywords" content="hotel, bostom hotel, new england hotel">
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/70ba610952.js"
+      crossorigin="anonymous"
+    ></script>
 
-	<!-- Font Awesome -->
-	<script src="https://kit.fontawesome.com/70ba610952.js" crossorigin="anonymous"></script>
+    <!-- Styles -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 768px)"
+      href="css/mobile.css"
+    />
 
-	<!-- Styles -->
-	<link rel="stylesheet" href="css/style.css">
+    <title>Hotel BT | Contact</title>
+  </head>
 
+  <body>
+    <header>
+      <nav id="navbar">
+        <h1 class="logo"><a href="index.html">HBT</a></h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="current" href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
 
-	<title>Hotel BT | Contact</title>
-</head>
+    <!-- Contact Form -->
+    <section id="contact-form" class="py-3">
+      <div class="container bg-white">
+        <h1 class="l-heading"><span class="text-primary">Contact</span> Us</h1>
+        <p>Please fill out the form below to contact us...</p>
+        <form action="process.php">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input id="name" type="text" name="name" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input id="email" type="email" name="email" />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message"></textarea>
+          </div>
+          <button class="btn" type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
 
-<body>
-	<header>
-		<nav id='navbar'>
-			<div class="container">
-				<h1 class="logo"><a href="index.html">HBT</a></h1>
-				<ul>
-					<li><a href="index.html">Home</a></li>
-					<li><a href="about.html">About</a></li>
-					<li><a class='current' href="contact.html">Contact</a></li>
-				</ul>
-			</div>
-		</nav>
-	</header>
+    <!-- Contact Info -->
+    <section id="contact-info" class="bg-dark">
+      <div class="container">
+        <div class="box">
+          <i class="fa-solid fa-hotel fa-3x"></i>
+          <h3>Location</h3>
+          <p>50 Main St, Boston MA</p>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-phone fa-3x"></i>
+          <h3>Phone #</h3>
+          <a>(201) 777-4222</a>
+        </div>
+        <div class="box">
+          <i class="fa-solid fa-envelope fa-3x"></i>
+          <h3>Location</h3>
+          <p>50 Main St, Boston MA</p>
+        </div>
+      </div>
+    </section>
 
-	<!-- Contact Form -->
-	<section id="contact-form" class='py-3'>
-		<div class="container bg-white">
-			<h1 class="l-heading"><span class="text-primary">Contact</span> Us</h1>
-			<p>Please fill out the form below to contact us...</p>
-			<form action="process.php">
-				<div class="form-group">
-					<label for="name">Name</label>
-					<input id="name" type="text" name='name'>
-				</div>
-				<div class="form-group">
-					<label for="email">Email</label>
-					<input id="email" type="email" name='email'>
-				</div>
-				<div class="form-group">
-					<label for="message">Message</label>
-					<textarea id="message" name='message'></textarea>
-				</div>
-				<button class="btn" type='submit'>Submit</button>
-			</form>
-		</div>
-	</section>
-
-	<!-- Contact Info -->
-	<section id="contact-info" class='bg-dark'>
-		<div class="container">
-			<div class="box">
-				<i class="fa-solid fa-hotel fa-3x"></i>
-				<h3>Location</h3>
-				<p>50 Main St, Boston MA</p>
-			</div>
-			<div class="box">
-				<i class="fa-solid fa-phone fa-3x"></i>
-				<h3>Phone #</h3>
-				<a>(201) 777-4222</a>
-			</div>
-			<div class="box">
-				<i class="fa-solid fa-envelope fa-3x"></i>
-				<h3>Location</h3>
-				<p>50 Main St, Boston MA</p>
-			</div>
-		</div>
-	</section>
-
-	<footer id="main-footer">
-		<p>Hotel BT &copy;
-			<script>document.write(new Date().getFullYear())</script> , All Rights Reserved
-		</p>
-	</footer>
-</body>
-
+    <footer id="main-footer">
+      <p>
+        Hotel BT &copy;
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        , All Rights Reserved
+      </p>
+    </footer>
+  </body>
 </html>

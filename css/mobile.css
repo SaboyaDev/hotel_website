@@ -1,0 +1,14 @@
+#navbar .container {
+  padding: 0;
+}
+
+#navbar .logo,
+#navbar ul,
+#navbar ul li {
+  float: none;
+  text-align: center;
+}
+
+#navbar ul li a {
+  padding: 20px 0;
+}
