@@ -1,14 +1,48 @@
+/* Navbar */
 #navbar .container {
   padding: 0;
+}
+
+/* Remove Float */
+#navbar .logo,
+#navbar ul,
+#navbar ul li,
+#home-info .info-content,
+.box {
+  float: none;
 }
 
 #navbar .logo,
 #navbar ul,
 #navbar ul li {
-  float: none;
   text-align: center;
 }
 
 #navbar ul li a {
-  padding: 20px 0;
+  padding: 5px 0;
+  border-bottom: var(--secondary-color-hover) solid 1px;
+}
+
+/* Showcase */
+#showcase .showcase-content {
+  padding-top: 130px;
+}
+
+/* Home-Info */
+#home-info .info-img {
+  display: none;
+}
+
+#home-info .info-content {
+  width: 100%;
+}
+
+#home-info .info-content h2 {
+  margin-top: 20px;
+}
+
+/* Features */
+.box {
+  float: none;
+  width: 100%;
 }
